@@ -1,6 +1,7 @@
 
 
 #include <iostream>
+#include <math.h>
 using namespace std;
 int main()
 {
@@ -106,6 +107,24 @@ int main()
 	}
 	else if (znak == '/') {
 		cout << x / y;
+	}
+	//zad.7
+	int i;
+	i = 0;
+    while (1) {
+		if (i == 200) {
+		break;
+			}
+		if (i % 2 == 0) {
+		continue;
+			}
+		cout << i;
+		i++;
+	}
+	//zad.8
+
+	
+
 
 
 return 0;

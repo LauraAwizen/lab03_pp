@@ -122,7 +122,7 @@ int main()
 		i++;
 	}
 	//zad.8
-	int n;
+	/*int n;
 	double granica;
 	bool x;
 	granica = sqrt(n);
@@ -138,7 +138,7 @@ int main()
 	}
 	if (!x) {
 		cout << "nie znaleziono dzielnika dla " << n;
-	}
+	}*/
 	//zad.9
 	int t;
 	cout << "podaj temperature:";
@@ -209,8 +209,70 @@ int main()
 		cout << "rok nieprzestepny";
 	}
 	//zad.12
-	
-	cout<<
+	int x;
+	cout << "menu:" << endl << "podaj liczbe od 1 do 4";
+	cin >> x;
+	switch (x) {
+		case 1:
+			cout << "start";
+			break;
+		case 2:
+			cout << "ustawienia";
+			break;
+		case 3:
+			cout << "pomoc";
+			break;
+		case 4 :
+			cout << "koniec";
+			break;
+		default:
+			cout << "nieprawidlowy wybor";
+			break;
+	}
+	//zad.13
+	int ocena;
+	cout << "podaj swoja ocene";
+	cin >> ocena;
+	switch (ocena) {
+	case 1:
+		cout << "niedostateczny";
+		break;
+	case 2:
+		cout << "dopuszczajacy";
+		break;
+	case 3:
+		cout << "dostateczny";
+		break;
+	case 4:
+		cout << "dobry";
+		break;
+	case 5:
+		cout << "bardzo dobry";
+		break;
+	default:
+		cout << "nie ma takiej oceny";
+		break;
+	}
+	//zad.14
+	int suma;
+	suma = 0;
+	for (int i = 1; i <= 100; i++) {
+		if (i % 3 != 0) {
+			suma += i;
+		}
+		else if(i % 3==0) {
+			continue;
+		}
+	}
+	cout << suma;
+	//zad.15
+	while (int i = 1; i++) {
+		if (i % 7 == 0 && i > 50) {
+			cout << i;
+		}
+		break;
+	}
+
 
 	
 	

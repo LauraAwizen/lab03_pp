@@ -272,7 +272,81 @@ int main()
 		}
 		break;
 	}
-
+	//zad. 16
+	//int a, b;
+	//for (a = 1; a <= 10; a++) {
+	//	for (b = 1; b <= 10; b++) {
+	//		cout <<a<<"*"<<b<<"= "<< a * b << ", ";
+	//	}
+	//}
+	//zad.17
+	//int n, licznik;
+	//licznik = 0;
+	//cout << "podaj nieujemna liczbe calkowita:";
+	//cin >> n;
+	//if (n == 0) {
+	//	cout << 1;
+	//}
+	//while (n > 0) {
+	//	licznik++;
+	//	n /= 10;
+	//}
+	//cout << licznik;
+	//zad.18
+	//int n, dzielnik;
+	//cout << "podaj liczbe calkowita:";
+	//cin >> n;
+	//for (dzielnik = 2; dzielnik <= sqrt(n); dzielnik++) {
+	//	if (n % dzielnik != 0) {
+	//		dzielnik++;
+	//	}
+	//	break;
+	//}
+	//if (n % dzielnik != 0) {
+	//	cout <<n<< " to liczba pierwsza";
+	//
+	//}
+	//else {
+	//	cout << n << " to nie liczba pierwsza";
+	//}
+	//zad.19
+	//int x;
+	//while (true) {
+	//	cout << "menu:" << endl << "podaj liczbe od 1 do 4: ";
+	//	cin >> x;
+	//	switch (x) {
+	//	case 1:
+	//		cout << "start ";
+	//		break;
+	//	case 2:
+	//		cout << "ustawienia ";
+	//		break;
+	//	case 3:
+	//		cout << "pomoc ";
+	//		break;
+	//	case 4:
+	//		cout << "koniec ";
+	//		break;
+	//	default:
+	//		cout << "nieprawidlowy wybor ";
+	//		break;
+	//	}
+	//	if (x == 4) {
+	//		break;
+	//	}
+	// }
+		//zad.20
+	double s;
+	int licznik;
+	s = 0;
+	licznik = 0;
+	while (s <= 10) {
+		s += 0.1;
+		cout << s << " ";
+		licznik++;
+	}
+	cout << "suma: " << s << endl;
+	cout << "liczba iteracji: " << licznik;
 
 	
 	
